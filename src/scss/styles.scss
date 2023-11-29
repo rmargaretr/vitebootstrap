@@ -1,2 +1,7 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary: #193d25;
+$secondary: rgb(220, 255, 231);
