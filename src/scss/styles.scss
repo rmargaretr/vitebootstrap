@@ -3,5 +3,19 @@
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 
+//defineerin värvieelistused//
 $primary: #193d25;
 $secondary: rgb(220, 255, 231);
+
+//selleks, et värvid kasutusele võetaks, defineerin nad $theme-colors massiivis//
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+);
+
+$brand: (
+    "brand": #F2F2F0
+);
+
+$theme-colors: map-merge($theme-colors, $brand),
+

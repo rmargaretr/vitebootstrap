@@ -1,11 +1,12 @@
 # vitebootstrap
-anette ja margaret teevad tööd
+# Selle paketi juhis  
 
+## Alustades tööd  
+Kui oma tööd juba arvutis pole siis `git clone`
 
-Tsauu margaret, mu pea vaga valutab ja ma arvan et mul pole tabletti, pls help
+## Pärast kloonimist  
+`npm install`  
 
-katse, kas töötabb
+## Kui töö on arvutis juba olemas siis `git pull`  
 
-midagi
-
-jeeeee
+## Et tööd n netis vaadata `npm run` ja `npm start`
